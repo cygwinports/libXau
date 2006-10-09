@@ -37,16 +37,14 @@ Build instructions:
 This will create:
   /usr/src/libXau-1.0.2-X-src.tar.bz2
   /usr/src/libXau-1.0.2-X.tar.bz2
+  /usr/src/libXau-devel-1.0.2-X.tar.bz2
   /usr/src/libXau6-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the main package:
+Files included in the binary packages:
 
-  /usr/include/X11/Xauth.h
-  /usr/lib/libXau.dll.a
-  /usr/lib/libXau.la
-  /usr/lib/pkgconfig/xau.pc
+(libXau)
   /usr/share/doc/Cygwin/libXau-1.0.2.README
   /usr/share/doc/libXau-1.0.2/AUTHORS
   /usr/share/doc/libXau-1.0.2/COPYING
@@ -63,13 +61,21 @@ Files included in the main package:
   /usr/share/man/man3/XauUnlockAuth.3.gz
   /usr/share/man/man3/XauWriteAuth.3.gz
 
-Files included in the runtime package:
-
+(libXau6)
   /usr/bin/cygXau-6.dll
+
+(libXau-devel)
+  /usr/include/X11/Xauth.h
+  /usr/lib/libXau.dll.a
+  /usr/lib/libXau.la
+  /usr/lib/pkgconfig/xau.pc
 
 ------------------
 
 Port Notes:
+
+----- version 1.0.2-2 -----
+Created separate -devel package.
 
 ----- version 1.0.2-1 -----
 Version bump.
