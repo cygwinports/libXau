@@ -1,3 +1,3 @@
-category: X11
-sdesc: "Xorg Xauthority library (docs)"
-ldesc: "Xorg Xauthority library"
+category: _source
+sdesc: "X.Org Xauthority library (source)"
+ldesc: "X.Org Xauthority library"

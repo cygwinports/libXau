@@ -1,5 +1,5 @@
 category: X11
 requires: cygwin
 external-source: libXau
-sdesc: "Xorg Xauthority library (runtime)"
-ldesc: "Xorg Xauthority library"
+sdesc: "X.Org Xauthority library (runtime)"
+ldesc: "X.Org Xauthority library"
