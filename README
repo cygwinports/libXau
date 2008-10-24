@@ -9,7 +9,7 @@ Build requirements:
   autoconf2.5-2.63-1
   automake1.10-1.10.1-1
   binutils-20080624-2
-  cygport-0.4.1-1
+  cygport-0.4.2-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   libtool-2.2.6a-1
@@ -53,6 +53,7 @@ Files included in the binary packages:
 
 (libXau-devel)
   /usr/include/X11/Xauth.h
+  /usr/lib/libXau.a
   /usr/lib/libXau.dll.a
   /usr/lib/libXau.la
   /usr/lib/pkgconfig/xau.pc
