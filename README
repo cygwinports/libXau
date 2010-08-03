@@ -3,21 +3,21 @@ libXau
 X.Org Xauthority library
 
 Runtime requirements:
-  cygwin-1.7.0-60
-  libgcc1-4.3.2-2
+  cygwin-1.7.5-1
+  libgcc1-4.3.4-3
 
 Build requirements:
-  autoconf2.5-2.64-10
-  automake1.10-1.10.2-10
-  binutils-2.19.51-1
-  cygport-0.9.9-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
-  libtool-2.2.7a-14
+  autoconf2.5-2.65-1
+  automake1.11-1.11.1-1
+  binutils-2.20.51-2
+  cygport-0.9.88-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-3
+  libtool-2.2.7a-15
   make-3.81-2
   pkg-config-0.23b-10
-  sed-4.1.5-2
-  xorg-util-macros-1.2.2-1
+  sed-4.2.1-1
+  xorg-util-macros-1.10.0-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -28,47 +28,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libXau-1.0.5-X-src.tar.bz2
+  unpack libXau-1.0.6-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libXau-1.0.5-X.cygport all
+  cygport ./libXau-1.0.6-X.cygport all
 
 This will create:
-  /usr/src/libXau-1.0.5-X-src.tar.bz2
-  /usr/src/libXau-devel-1.0.5-X.tar.bz2
-  /usr/src/libXau6-1.0.5-X.tar.bz2
+  /usr/src/libXau-1.0.6-X-src.tar.bz2
+  /usr/src/libXau-devel-1.0.6-X.tar.bz2
+  /usr/src/libXau6-1.0.6-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary packages:
-
-(libXau6)
-  /usr/bin/cygXau-6.dll
-  /usr/share/doc/libXau/AUTHORS
-  /usr/share/doc/libXau/COPYING
-  /usr/share/doc/libXau/ChangeLog
-  /usr/share/doc/libXau/README
-
-(libXau-devel)
-  /usr/include/X11/Xauth.h
-  /usr/lib/libXau.a
-  /usr/lib/libXau.dll.a
-  /usr/lib/libXau.la
-  /usr/lib/pkgconfig/xau.pc
-  /usr/share/man/man3/Xau.3.gz
-  /usr/share/man/man3/XauDisposeAuth.3.gz
-  /usr/share/man/man3/XauFileName.3.gz
-  /usr/share/man/man3/XauGetAuthByAddr.3.gz
-  /usr/share/man/man3/XauGetBestAuthByAddr.3.gz
-  /usr/share/man/man3/XauLockAuth.3.gz
-  /usr/share/man/man3/XauReadAuth.3.gz
-  /usr/share/man/man3/XauUnlockAuth.3.gz
-  /usr/share/man/man3/XauWriteAuth.3.gz
-
-------------------
-
 Port Notes:
+
+----- version 1.0.6-1 -----
+Version bump.
 
 ----- version 1.0.5-1 -----
 Version bump for X11R7.5.
