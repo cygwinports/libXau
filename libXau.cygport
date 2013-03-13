@@ -1,6 +1,12 @@
 inherit xorg
 
+NAME="libXau"
+VERSION=1.0.7
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X.Org Xauthority library"
+DESCRIPTION="X.Org Xauthority library"
+
 PKG_NAMES="${PN}6 ${PN}-devel"
-PKG_HINTS="runtime devel"
 libXau6_CONTENTS="usr/bin/cygXau-6.dll usr/share/doc/"
 libXau_devel_CONTENTS="usr/include/ usr/lib/ usr/share/man/"

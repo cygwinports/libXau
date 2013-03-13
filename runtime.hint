@@ -1,5 +1,0 @@
-category: X11
-requires:
-external-source: libXau
-sdesc: "X.Org Xauthority library (runtime)"
-ldesc: "X.Org Xauthority library"
