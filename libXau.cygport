@@ -3,7 +3,7 @@ inherit xorg
 NAME="libXau"
 VERSION=1.0.8
 RELEASE=1
-CATEGORY="X11"
+CATEGORY="Libs"
 SUMMARY="X.Org Xauthority library"
 DESCRIPTION="X.Org Xauthority library"
 
